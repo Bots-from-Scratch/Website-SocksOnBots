@@ -19,6 +19,7 @@ import { InfoComponent } from './info/info.component';
 import { CompetitionComponent } from './competition/competition.component';
 import { TutorialComponent } from './tutorial/tutorial.component';
 import { LoginComponent } from './login/login.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { LoginComponent } from './login/login.component';
     InfoComponent,
     CompetitionComponent,
     TutorialComponent,
-    LoginComponent
+    LoginComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
