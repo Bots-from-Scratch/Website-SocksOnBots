@@ -1,0 +1,21 @@
+<!-- wettkampf.component.html -->
+<div class="leaderboard">
+    <h2>Rangliste</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Platzierung</th>
+          <th>Name</th>
+          <th>Punkte</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let player of leaderboard">
+          <td>{{ player.position }}</td>
+          <td>{{ player.name }}</td>
+          <td>{{ player.points }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

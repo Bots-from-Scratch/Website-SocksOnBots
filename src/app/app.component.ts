@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'bots-with-socks-website';
+  // darkMode = false;
+  showMessage = false;
 }
